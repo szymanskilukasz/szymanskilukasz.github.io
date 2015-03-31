@@ -1,49 +1,46 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://example.com" # the base hostname & protocol for your site
+url: "http://szymanskilukasz.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Type Theme
-  avatar: avatar.png
-  gravatar: # Email MD5 hash
+  title: szymanskilukasz
+  avatar:
+  gravatar: 33d8f6c5f5c8b940ff4d6422a5f32b02
   description: "A website with blog posts and pages" # used by search engines
 
   # Header and footer text
-  header_text: >
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+  header_text:
   header_text_feature_image:
   footer_text: >
    Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address:
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
-  github: "rohanchandra/type-theme"
+  github: "szymanskilukasz"
   google_plus:
   instagram:
-  linkedin:  # Full URL
+  linkedin: "http://pl.linkedin.com/in/szymanskilukasz"
   pinterest:
   reddit:
   soundcloud:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "twitter"
+  twitter: "szymanskilukasz"
   wordpress:
   youtube:
 
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  disqus_shortname: szymanskilukasz
   katex: true # Enable if using math markup
 
   # Localization strings
