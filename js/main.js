@@ -22,9 +22,11 @@ Array.prototype.forEach.call(elements, function(element) {
 });
 
 var twitterLink = document.getElementById('twitterLink');
-addListener(twitterLink, 'click', function() {
+if (twitterLink) {
+ addListener(twitterLink, 'click', function() {
   ga('send', 'event', 'button', 'click', 'twitter');
-});
+}); 
+}
 
 function addListener(element, type, callback) {
  if (element.addEventListener) element.addEventListener(type, callback);
