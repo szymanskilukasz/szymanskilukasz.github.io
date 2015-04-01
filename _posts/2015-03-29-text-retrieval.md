@@ -86,7 +86,7 @@ Score of query would be based on each individual word
 
 How to calculate the score?
 
-**Term Frequency (TF)** - How many times word occur in document *"d"*, e.g.
+**Term Frequency (TF)** - How many times does a word occur in document *"d"*, e.g.
 
 1. How many times does "<span style="color: #C75646">**Best**</span>" occur in document *"d"*?
 2. How many times does "<span style="color: #8EB33B">**Retrieval**</span>" occur in document *"d"*?
