@@ -50,7 +50,7 @@ $$ \theta $$ is a cutoff determined by the user
 
 ## Document selection vs ranking
 
-Main problem with the document selection classifier is fact, that it is very hard to make it accurate. Most of the time it will be over-constrained or under-constrained - it will have no relevant documents to return or it will have it too much.
+Main problem with the document selection classifier is fact, that it is very hard to make it accurate. Most of the time it will be over-constrained or under-constrained - having no relevant documents to return or having it too much.
 
 Even if we make our classifier highly accurate, we must remember that **documents are not equally relevant** - they need have a prioritization.
 
@@ -94,7 +94,7 @@ How to calculate the score?
 
 **Document Length** - How long is document "*d*"?
 
-If term occurs with equal frequency, but one of the documents is shorter the score will be higher. Same in the other hand - if document is longer, there is higher probability that term occurs in that document.
+If term occurs with equal frequency, but one of the documents is shorter the score will be higher. Same in the other hand - if document is longer, there will be higher probability that term occurs in that document.
 
 **Document Frequency** - How often do we see a word in entire collection?
 
