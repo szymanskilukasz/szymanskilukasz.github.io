@@ -9,7 +9,7 @@ Probably you've heard about some great search platforms like [Elasticsearch](htt
 
 ## What is text retrieval?
 
-We can define it as a task where the system responds to user query with relevant documents. The best example will be of course Google search engine - user types query and gets suitable web pages in response. Sounds easy right? Well, not quite.
+We can define it as a task where the system responds to user query with relevant documents. Sounds easy right? Well, not quite.
 
 The main problem is that we can't mathematically prove that one method is better than another. Our challenge is to design most effective ranking function, and empirically evaluate it - involving users which will going to use are search engine.
 
